@@ -1,0 +1,17 @@
+body {
+	overflow-x: hidden;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;
+}
+
+#buttonContact {
+	width: 85%;
+}
+
+.imageFooter {
+	height: 64px;
+	width: 64px;
+}
