@@ -1,4 +1,5 @@
-body,html {
+body,
+html {
     margin: 0;
     overflow-x: hidden;
 }
@@ -7,17 +8,22 @@ body,html {
     align-items: center;
     -webkit-box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.75);
+    background-color: #66CA34FF;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.75);
     display: flex;
     z-index: 1;
 }
 
-#contenu {
-    margin-top: 70px;
+a,
+a:hover,
+a:visited,
+a:active {
+    color: #FFFFFFFF;
+    text-decoration: none;
 }
 
 #footer {
-    background-color: #1DC9E1FF;
+    background-color: #71C13DFF;
     bottom: 0;
     -webkit-box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, 0.55);
     -moz-box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, 0.55);
@@ -31,4 +37,13 @@ body,html {
 .imageFooter {
     height: 64px;
     width: 64px;
+}
+
+@media (max-width: 576px) {
+    #propos {
+        text-align: center;
+    }
+    #contact {
+        margin-top: 0 !important;
+    }
 }
